@@ -7,7 +7,7 @@
             "askForPassword": true,
             "driver": "PostgreSQL",
             "name": "postgres",
-            "database": "talently",
+            "database": "online_shop",
             "username": "postgres"
         }
     ]
