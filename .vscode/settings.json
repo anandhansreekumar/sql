@@ -7,7 +7,7 @@
             "askForPassword": true,
             "driver": "PostgreSQL",
             "name": "postgres",
-            "database": "sales_example",
+            "database": "relations",
             "username": "postgres"
         }
     ]
