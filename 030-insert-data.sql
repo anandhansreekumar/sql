@@ -1,6 +1,20 @@
+-- INSERT INTO
+--     cities (name)
+-- VALUES
+--     ('Berlin'),
+--     ('New York'),
+--     ('London');
+-- INSERT INTO
+--     addresses(street, house_number, city_id)
+-- VALUES
+--     ('Teststreet', '8A', 3),
+--     ('Some street', '10A', 1),
+--     ('Teststreet', '1', 3),
+--     ('My street', '101', 2);
+
 INSERT INTO
-    cities (name)
+    users (first_name, last_name, email, address_id)
 VALUES
-    ('Berlin'),
-    ('New York'),
-    ('London');
+    ('Max', 'Schwarz', 'max@test.com', 2),
+    ('Manuel', 'Lorez', 'manuel@test.com', 4),
+    ('Julie', 'Barnes', 'julie@test.com', 2);
