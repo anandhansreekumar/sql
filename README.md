@@ -13,3 +13,7 @@
 ### Data normalization
 
 ![alt text](image-2.png)
+
+### On delete & On update
+
+![alt text](image-3.png)
