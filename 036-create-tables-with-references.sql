@@ -1,9 +1,6 @@
-CREATE TABLE users(
+CREATE TABLE cities(
     id SERIAL PRIMARY KEY,
-    first_name VARCHAR(300) NOT NULL,
-    last_name VARCHAR(300) NOT NULL,
-    email VARCHAR(300) NOT NULL,
-    address_id INT REFERENCES addresses(id) ON DELETE _ ON UPDATE _
+    name VARCHAR(200) UNIQUE NOT NULL
 );
 
 CREATE TABLE addresses(
@@ -13,7 +10,10 @@ CREATE TABLE addresses(
     city_id INT NOT NULL
 );
 
-CREATE TABLE cities(
+CREATE TABLE users(
     id SERIAL PRIMARY KEY,
-    name VARCHAR(200) UNIQUE NOT NULL
-)
+    first_name VARCHAR(300) NOT NULL,
+    last_name VARCHAR(300) NOT NULL,
+    email VARCHAR(300) NOT NULL,
+    address_id INT REFERENCES addresses(id) ON DELETE RESTRICT
+);
