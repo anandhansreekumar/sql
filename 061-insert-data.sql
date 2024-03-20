@@ -1,16 +1,18 @@
--- INSERT INTO
---     payment_methods (name)
--- VALUES
---     ('Cash'),
---     ('Credit Card');
--- INSERT INTO
---     tables (num_seats, category)
--- VALUES
---     (2, 'small'),
---     (2, 'small'),
---     (4, 'medium'),
---     (6, 'large'),
---     (8, 'large');
+INSERT INTO
+    payment_methods (name)
+VALUES
+    ('Cash'),
+    ('Credit Card');
+
+INSERT INTO
+    tables (num_seats, category)
+VALUES
+    (2, 'small'),
+    (2, 'small'),
+    (4, 'medium'),
+    (6, 'large'),
+    (8, 'large');
+
 INSERT INTO
     bookings (
         booking_date,
@@ -21,7 +23,7 @@ INSERT INTO
         table_id
     )
 VALUES
-    (
+(
         '2021-11-04',
         2,
         19.90,
