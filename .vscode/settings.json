@@ -7,7 +7,7 @@
             "askForPassword": true,
             "driver": "PostgreSQL",
             "name": "postgres",
-            "database": "restaurant",
+            "database": "gym",
             "username": "postgres"
         }
     ]
