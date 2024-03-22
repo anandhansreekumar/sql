@@ -32,3 +32,5 @@
 --     membership_end - membership_start
 -- FROM
 --     memberships
+SELECT
+    NOW()
