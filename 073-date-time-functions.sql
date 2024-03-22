@@ -19,8 +19,16 @@
 --     last_checkin :: TIMESTAMP :: TIME
 -- FROM
 --     memberships
-SELECT
-    CAST(last_checkin AS DATE),
-    CAST(last_checkin AS TIME)
-FROM
-    memberships;
+-- SELECT
+--     CAST(last_checkin AS DATE),
+--     CAST(last_checkin AS TIME)
+-- FROM
+--     memberships;
+-- SELECT
+--     last_checkout - last_checkin
+-- FROM
+--     memberships;
+-- SELECT
+--     membership_end - membership_start
+-- FROM
+--     memberships
