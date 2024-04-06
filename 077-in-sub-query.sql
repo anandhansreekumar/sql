@@ -1,4 +1,6 @@
 SELECT
     email
 FROM
-    customers;
+    customers
+WHERE
+    first_name IN ('Max', 'Manu')
