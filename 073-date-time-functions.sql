@@ -8,7 +8,7 @@
 --     memberships
 -- SELECT
 --     EXTRACT(
---         DOW
+--         ISODOW
 --         FROM
 --             last_checkin
 --     )

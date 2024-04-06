@@ -16,3 +16,9 @@
 --     memberships
 -- WHERE
 --     LENGTH(last_name) < 4
+-- SELECT
+--     TRIM(
+--         TRAILING ' ' -- LEADING, TRAILINGM, BOTH
+--         FROM
+--             'male  '
+--     );
