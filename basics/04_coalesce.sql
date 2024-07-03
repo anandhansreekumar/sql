@@ -1,0 +1,3 @@
+-- SELECT COALESCE(name, "No name")
+-- from student
+-- SELECT AVG(COALESCE(age,15)) from "Student"
