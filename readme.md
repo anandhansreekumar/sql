@@ -7,3 +7,8 @@
 ### Aggregate functions
 
 AVG,COUNT,MIN,MAX,SUM,...
+
+### '' or ""
+
+'' => for strings
+"" => for table/column names
