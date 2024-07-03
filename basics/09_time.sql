@@ -1,0 +1,2 @@
+-- SHOW timezone
+SELECT now()
