@@ -5,7 +5,7 @@ POSTGRES_CONTAINER_NAME = postgres
 POSTGRES_PASSWORD = root
 POSTGRES_VOLUME = pgdata
 POSTGRES_PORT = 5432
-
+ 
 .PHONY: all install_docker create_volume run_container stop_container remove_container cleanup
 
 all: run_container
