@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('year', date '1992/11/13')
