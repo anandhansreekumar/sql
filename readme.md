@@ -15,10 +15,10 @@ AVG,COUNT,MIN,MAX,SUM,...
 
 ### Order of operations
 
-FROM clause (including any JOIN operations)
-WHERE clause
-GROUP BY clause (if present)
-HAVING clause (if present)
-SELECT clause
-ORDER BY clause
-LIMIT clause (if present)
+1. FROM clause (including any JOIN operations)
+2. WHERE clause
+3. GROUP BY clause (if present)
+4. HAVING clause (if present)
+5. SELECT clause
+6. ORDER BY clause
+7. LIMIT clause (if present)
