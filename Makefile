@@ -26,6 +26,9 @@ create_volume:
 run_container: create_volume
 	sudo docker run --name $(POSTGRES_CONTAINER_NAME) -e POSTGRES_PASSWORD=$(POSTGRES_PASSWORD) -d -v $(POSTGRES_VOLUME):/var/lib/postgresql/data -p $(POSTGRES_PORT):5432 postgres
 
+start_container:
+	sudo docker start $(POSTGRES_CONTAINER_NAME)
+
 stop_container:
 	sudo docker stop $(POSTGRES_CONTAINER_NAME)
 
