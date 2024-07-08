@@ -1,3 +1,4 @@
+-- ORDER BY sort_expresssion [ASC | DESC] [NULLS FIRST | NULLS LAST]
 /*
  * DB: Employees
  * Table: employees
