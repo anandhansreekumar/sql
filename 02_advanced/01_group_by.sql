@@ -1,3 +1,4 @@
+-- Every column not in the group by clause must apply a function  
 /*
  *  How many people were hired on did we hire on any given hire date?
  *  Database: Employees
