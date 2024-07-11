@@ -37,7 +37,6 @@ AVG,COUNT,MIN,MAX,SUM,...
 2. Index primary keys and unique columns
 3. Index on columns that end up in the ORDER BY/WHERE clause
 
-
 ### When not to use Index
 
 1. Don't add an index just to add one
