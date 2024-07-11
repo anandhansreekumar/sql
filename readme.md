@@ -1,10 +1,10 @@
 ### SQL
 
-### Query classification
+### Query Classification
 
 ![alt text](image.png)
 
-### Aggregate functions
+### Aggregate Functions
 
 AVG,COUNT,MIN,MAX,SUM,...
 
@@ -13,7 +13,7 @@ AVG,COUNT,MIN,MAX,SUM,...
 '' => for strings
 "" => for table/column names
 
-### Order of operations
+### Order of Operations
 
 1. FROM clause (including any JOIN operations)
 2. WHERE clause
@@ -22,3 +22,11 @@ AVG,COUNT,MIN,MAX,SUM,...
 5. SELECT clause
 6. ORDER BY clause
 7. LIMIT clause (if present)
+
+### Types of Indexes
+
+1. Single column
+2. Multi column
+3. Unique
+4. Partial
+5. Implicit indexes
