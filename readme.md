@@ -44,3 +44,10 @@ AVG,COUNT,MIN,MAX,SUM,...
 3. Don't use on tables that are update frequently
 4. Don't use on columns that can contain NULL values
 5. Don't use on columns that have large values
+
+### Postgres Indexing Algorithms
+
+1. B-Tree
+2. Hash
+3. Gin
+4. Gist
