@@ -47,7 +47,7 @@ AVG,COUNT,MIN,MAX,SUM,...
 
 ### Postgres Indexing Algorithms
 
-1. B-Tree
-2. Hash
-3. Gin
-4. Gist
+1. B-Tree : default indexing algorithm in Postgres. Best for comparisons with <,<=,=,>=,>, BETWEEN, IN, IS NULL, IS NOT NULL
+2. Hash : best for equality check
+3. Gin : best used when multiple values are stored in a single field
+4. Gist : useful for indexing geometric data and full text search
