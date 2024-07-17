@@ -73,3 +73,10 @@ use --interactive flag for ease
 3. UNIQUE
 4. CHECK
 5. REFERENCES
+
+### Table constraints
+
+1. PRIMARY KEY
+2. UNIQUE
+3. CHECK
+4. REFERENCES
