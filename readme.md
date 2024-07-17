@@ -63,3 +63,5 @@ https://www.postgresqltutorial.com/postgresql-administration/postgresql-schema/
 ### Roles
 
 https://www.postgresqltutorial.com/postgresql-administration/postgresql-roles/
+
+use --interactive flag for ease
