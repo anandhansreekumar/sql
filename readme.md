@@ -51,3 +51,15 @@ AVG,COUNT,MIN,MAX,SUM,...
 2. Hash : best for equality check
 3. Gin : best used when multiple values are stored in a single field
 4. Gist : useful for indexing geometric data and full text search
+
+### Database
+
+https://medium.com/yavar/postgres-default-databases-98092224e642
+
+### Schema
+
+https://www.postgresqltutorial.com/postgresql-administration/postgresql-schema/
+
+### Roles
+
+https://www.postgresqltutorial.com/postgresql-administration/postgresql-roles/

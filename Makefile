@@ -38,6 +38,9 @@ remove_container: stop_container
 cleanup: remove_container
 	sudo docker volume rm $(POSTGRES_VOLUME)
 
+connect: start_container
+	sudo docker exec -it $(POSTGRES_CONTAINER_NAME) psql -U postgres
+	
 # Optional target to show the container logs
 logs:
 	sudo docker logs $(POSTGRES_CONTAINER_NAME)
