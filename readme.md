@@ -68,6 +68,8 @@ use --interactive flag for ease
 
 ### Column constraints
 
+https://www.tutorialspoint.com/postgresql/postgresql_constraints.htm
+
 1. NOT NULL
 2. PRIMARY KEY
 3. UNIQUE
@@ -76,7 +78,13 @@ use --interactive flag for ease
 
 ### Table constraints
 
+https://www.tutorialspoint.com/postgresql/postgresql_constraints.htm
+
 1. PRIMARY KEY
 2. UNIQUE
 3. CHECK
 4. REFERENCES
+
+### Custom data types and domains
+
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-user-defined-data-types/
