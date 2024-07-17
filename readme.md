@@ -65,3 +65,11 @@ https://www.postgresqltutorial.com/postgresql-administration/postgresql-schema/
 https://www.postgresqltutorial.com/postgresql-administration/postgresql-roles/
 
 use --interactive flag for ease
+
+### Column constraints
+
+1. NOT NULL
+2. PRIMARY KEY
+3. UNIQUE
+4. CHECK
+5. REFERENCES
